@@ -1,0 +1,62 @@
+<html>
+<body>
+
+<h1> Git commands </h1>
+<ul>
+<p><li>git config --global user.name "Kirill"</li></p>
+<p><li>git config --global user.email kirill.kovalevski@mail</li></p>
+<p><li>git config --global init.default branch main</li></p>
+
+<p><li>git config -h</li></p>
+<p><li>git help config</li></p>
+
+<p><li>clear</li></p>
+
+<p><li>cd D:/git/project</li></p>
+<p><li>git init</li></p>
+
+</body>
+</html>
+
+git status
+
+git add <file name>
+git rm --cached <file name>
+
+.gitignore
+	#ignore all.txt files
+	*.txt
+
+git add --all
+
+git commit -m "first commit"
+
+git diff
+
+git restore --staged index.htm
+
+git commit -a -m "updated text" - skeeps over the staging step and commits the file 
+
+git rm <file name> - to delete a file
+git restore <file name> - to restore a file
+
+git mv<original <file name> <new file name>
+
+git log - to see all the actions that you have done
+
+git rebase -i --root = modify the order of commits
+
+git branch FixTemp = to create another branch
+git branch = to get the names of all the branches
+git switch <branch name> = to switch branch
+git branch -d <name of the branch> = to delete a branch
+git switch -c <name of the branch> = to create a new branch a switch to it
+
+git commit -a -m "updated temp" = to commit a change to git
+git merge -m "merge fixtemp back to main"
+
+git push --all = to see all branches on github
+git fetch
+git merge
+
+git pull
